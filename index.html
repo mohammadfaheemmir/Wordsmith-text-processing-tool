@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Online Editor</title>
+</head>
+<body>
+    <div class="container">
+        <h1>WordSmith</h1>
+        <div class="set-color">
+            <button onclick="setColor()">Set Color</button>
+            <input type="value" placeholder="Set color" class="color-input">
+        </div>
+        <div class="word-btns">
+            <button onclick="toggleUnderline()">Underline</button>
+            <button onclick="toggleItalic()">Italic</button>
+            <button onclick="toggleBold()">Bold</button>
+            <button onclick="toggleMonospace()">Monospace</button>
+            <button onclick="removeFormat()">Remove Format</button>
+        </div>
+        <div class="input-container">
+            <input id="words" placeholder="write your text here" />
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
